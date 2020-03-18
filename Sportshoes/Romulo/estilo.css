@@ -1,0 +1,30 @@
+.form{
+	float: top;
+	margin-top: 50px;
+	margin-left: 400px; 
+	font-size: 30px;
+	color:silver;
+	
+	
+
+}
+.oi{
+	margin-right:750px;
+	 background: rgba(0, 0, 0, 0.5);
+	 border-radius: 10px; 
+
+
+}
+button[type=button]{
+	margin-left: 250px;
+}
+.foto{
+	 background: url(fundo2.jpg) 
+	 no-repeat center center fixed ;
+	 background-size: cover;
+	
+
+
+}
+
+

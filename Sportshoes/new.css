@@ -1,0 +1,722 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#menu{
+	text-align: center;
+}
+
+#menu ul {
+	padding: 2px;
+	margin: 0px;
+	background-color: mediumturquoise;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	padding: 10px;
+	display: inline-block;
+	border-bottom: 3px solid mediumturquoise;
+	text-decoration: none;
+	font-family: helvetica;
+	color:white ;
+}
+
+#menu ul li a:hover {
+	color: teal;
+	border-bottom: 3px solid white; 
+}
+
+.logo{
+	width: 100%;
+	height: 50px;
+	background-color: white; 
+	margin: auto;
+}
+.logo h2{
+	text-align: center;
+	font-family: dense;
+	font-size: 30px;
+}
+.pes{
+	margin-left:50px;
+	height: 25px;
+	border-radius: 40px;
+	background-color: white;
+	border:none;
+	color: black;
+	text-align: center;
+}
+
+.icon-pesq{
+	width: 20px;
+	shape-margin: 20px;
+	background: no-repeat;
+}
+
+.icon-pesq:hover{
+	position:relative;
+	top:-2px;border-bottom:2px solid mediumturquoise;
+}
+#div4 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 250px;
+	background-image: url("foto/jj2.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div4 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div4 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div4 input {
+	position: absolute;
+	margin-top: 30px;
+	width: 100px;
+	height: 40px;
+	margin-left: -10px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div5 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj6.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div5 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:175px;
+	margin-left: 30px;
+}
+#div5 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div5 input {
+	position: absolute;
+	margin-top: 25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div6 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj7.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div6 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div6 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 25px;
+}
+#div6 input {
+	position: absolute;
+	margin-top: 25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div7 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 250px;
+	background-image: url("foto/jj8.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div7 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div7 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div7 input {
+	position: absolute;
+	margin-top: 25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-10px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div8 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj9.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div8 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div8 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 15px;
+}
+#div8 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div9 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj10.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div9 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div9 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 25px;
+}
+#div9 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div10 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 250px;
+	background-image: url("foto/jj15.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div10 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div10 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 15px;
+}
+#div10 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div11 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj17.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div11 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+
+}
+#div11 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div11 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div12 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj13.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div12 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div12 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div12 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div13 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 250px;
+	background-image: url("foto/jj14.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div13 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div13 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div13 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div14 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj15.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div14 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div14 p {
+	position: absolute;
+	font-size: 15px;
+	margin-top: 170px;
+	margin-left: 20px;
+}
+#div14 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div14 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div15 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj16.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div15 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div15 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div15 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div16 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 250px;
+	background-image: url("foto/jj5.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div16 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div16 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div16 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div17 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj20.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div17 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div17 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div17 input {
+	position: absolute;
+	margin-top:  25px;
+	width: 100px;
+	height: 40px;
+	margin-left:-5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+}
+#div18 {
+	background-color: gray;
+	width: 150px;
+	height: 250px;
+	margin-left: 50px;
+	background-image: url("foto/jj19.png");
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#div18 p {
+	position:absolute;
+	font-size:15px;
+	margin-top:170px;
+	margin-left: 30px;
+}
+#div18 a {
+	position: absolute;
+	margin-top: 190px;
+	color: blue;
+	font-size: 22px;
+	margin-left: 20px;
+}
+#div18 input {
+	position: absolute;
+	margin-top: 25px;
+	width: 100px;
+	height: 40px;
+	margin-left: -5px;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	font-size: 15px;
+	color: white;
+
+}
+.list li{
+	display: inline-block;
+	margin-left:80px;
+}
+.list {
+	margin-top: 100px;
+}
+#ft img {
+	width: 65%;
+	margin-left: 238px;
+	margin-top: 60px;
+}
+footer {
+	color: 	black;
+	margin-top: 200px;
+	height: 100px;
+}
+#foot {
+	background-color: #FFE4B5;
+}
+#anuncio {
+	position: absolute;
+	background-image: url("foto/vito.jpg");
+	height: 1800px;
+	width: 16%;
+	margin-top: -500px;
+	margin-left: 1150px;
+	background-size: 250%;
+	background-position: 325px;
+}
+#anuncio h1 {
+	position: absolute;
+	color: white;
+	margin-top: 900px;
+	font-size: 55px;
+}
+#anuncio2 {
+	position: absolute;
+	background-image: url("foto/jose.png");
+	height: 1800px;
+	width: 16%;
+	margin-top: -500px;
+	margin-left: -20px;
+	background-size: 300%;
+	background-position: -25px;
+
+}
+#anuncio2 h1 {
+	position: absolute;
+	color: white;
+	margin-top: 900px;
+	font-size: 45px;
+	margin-left: 15px;
+
+}
+#tudo {
+	margin-top: 700px;
+}
+.vol {
+	position: absolute;
+	margin-left: 640px;
+	margin-top: 150px;
+	font-size: 20px;
+	width: 10%;
+	background-image: url("foto/an.jpg");
+	background-size: 1100%;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	border:none;
+	height: 50px;
+	color: white;
+	border-radius: 10px;
+}
+hr {
+	margin-top: 30px; 
+}
+#coment a {
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 50px;
+	position: absolute;
+}
+#coment textarea {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+#coment button {
+	position: absolute;
+	margin-left: -60px;
+	margin-top: 135px;
+	border-radius: 2px;
+	border:none;
+	width: 60px;
+	height: 30px;
+	background-color: green;
+	color: white;
+}
+#foot img {
+	position: absolute;
+	width: 5%;
+	margin-left: -30px;
+	margin-top: -200px;
+}
+footer {
+	height: 80px;
+}
+.volta {
+	text-decoration: none;
+	color: white;
+}
+.geral {
+	margin-top: -690px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

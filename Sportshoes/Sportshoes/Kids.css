@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#menu{
+	text-align: center;
+}
+
+#menu ul {
+	padding: 2px;
+	margin: 0px;
+	background-color: mediumturquoise;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	padding: 10px;
+	display: inline-block;
+	border-bottom: 3px solid mediumturquoise;
+	text-decoration: none;
+	font-family: helvetica;
+	color:white ;
+}
+
+	#menu ul li a:hover {
+	color: teal;
+	border-bottom: 3px solid white; 
+}
+.logo{
+	width: 100%;
+	height: 50px;
+	background-color: white; 
+	margin: auto;
+}
+
+.logo h2{
+	text-align: center;
+	font-family: dense;
+	font-size: 30px;
+}
+
+.pes{
+	margin-left:50px;
+	height: 25px;
+	border-radius: 40px;
+	background-color: white;
+	border:none;
+	color: black;
+	text-align: center;
+}
+
+.icon-pesq{
+	width: 20px;
+	shape-margin: 20px;
+	background: no-repeat;
+}
+.icon-pesq:hover{
+	position:relative;
+	top:-2px;border-bottom:2px solid mediumturquoise;
+}
+#div1{
+
+	background-color: white;
+	width: 20%;
+	margin:50px;
+	height: 200px;
+	margin-left: 135px;
+	
+}
+#sap1{
+	margin-top: 20px;
+	position: absolute;
+
+}
+#preco1{
+	color: blue;
+}
+#nome1{
+	margin-top: -30px;
+}
